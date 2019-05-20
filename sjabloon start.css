@@ -95,7 +95,30 @@ slide p{
     
     
 }
+body {
+ background-color: #E0FFFF;
+    background-clip: padding-box;
+}
+
+h1 {
+  ;
+}
+p {
+
+    font-family: "Times New Roman", Times, serif;
+    text-transform: inherit;
+    display: block;
+    font-weight: 10px;
+    letter-spacing: 2px;
+    text-emphasis-position: left
+    text:center;
+    
+}
 
 
+#nav_tutorials,#nav_references,#nav_exercises{-webkit-overflow-scrolling:touch;overflow:auto;}
+#nav_tutorials::-webkit-scrollbar,#nav_references::-webkit-scrollbar,#nav_exercises::-webkit-scrollbar {width: 12px;}
+#nav_tutorials::-webkit-scrollbar-track,#nav_references::-webkit-scrollbar-track,#nav_exercises::-webkit-scrollbar-track {background:#555555;}
+#nav_tutorials::-webkit-scrollbar-thumb,#nav_references::-webkit-scrollbar-thumb,#nav_exercises::-webkit-scrollbar-thumb {background: #999999;}
 
 
